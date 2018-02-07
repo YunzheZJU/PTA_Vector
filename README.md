@@ -1,15 +1,15 @@
-##6-1 vector（10 分）
+##  6-1 vector（10 分）
 本题要求实现一个Vector类模板，能实现数据的存储和访问。通过[]运算符访问时只能访问已经存在的元素，而通过add()方法访问时可以自动扩展内部存储空间。
 
 注意，这个Vector的行为和std::vector是不同的
 
-#函数接口定义：
+# 函数接口定义：
 ``` C++
 template <class T>
 class Vector {
 ...
 ```
-#裁判测试程序样例：
+# 裁判测试程序样例：
 ``` C++
 #include <iostream>
 using namespace std;
@@ -38,12 +38,12 @@ int main()
 	cout << vint.get_size() << endl;
 }
 ```
-#输入样例：
+# 输入样例：
 
 ``` C++
 100 50
 ```
-#输出样例：
+# 输出样例：
 
 ``` C++
 100
